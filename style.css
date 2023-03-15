@@ -1,0 +1,87 @@
+h1 {
+    color: #837712;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* image{
+    border-radius: 200px;
+    
+} */
+
+.margin_line {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img1:hover{
+    /* margin: 5px; */
+    padding: 10px;
+    border-radius: 60px;
+    /* float:left
+    position: absolute; */
+    transform: scale(1.5);
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+.故事简介{
+    display:flex;
+    flex-direction: column;
+}
+
+.故事简介_itemL{
+    display:flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.故事简介_itemL2{
+    display:flex;
+    justify-content: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.故事简介_itemR{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.故事简介_item_img{
+    width: 250px;
+    height:300px;
+    border: radius 12px;
+}
+
+.Lword{
+    display:flex;
+    justify-content: flex-start
+    color:#837712
+    width:400px;
+    font-size: 20px;
+    line-height: 36px;
+    align-self:center;
+    padding-left: 100px;
+
+}
+
+.Rtword{
+    display:flex;
+    justify-content: center;
+    color:#837712
+    width:900px;
+    font-size: 20px;
+    line-height: 36px;
+    align-self:center;
+    padding-left: 100px;
+
+}
